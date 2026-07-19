@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "title": "Diet Plan",
+    "day_mapping": "weekday (Day 1 = Monday, repeats weekly)",
+    "reminders": "3 L water/day · water 15-20 min before meals · 60-min walk",
+    "legend": "1 cup = 200 ml · 1 bowl = 250 ml · 1 glass = 250 ml · pc = piece",
+    "notes": [
+      "Example data — replace every meal with your own plan."
+    ]
+  },
+  "slots": [
+    {
+      "key": "early",
+      "name": "Early Morning",
+      "time": "On waking",
+      "start": 0
+    },
+    {
+      "key": "breakfast",
+      "name": "Breakfast",
+      "time": "8–9 AM",
+      "start": 800
+    },
+    {
+      "key": "mid",
+      "name": "Mid-Morning",
+      "time": "~11 AM",
+      "start": 1030
+    },
+    {
+      "key": "lunch",
+      "name": "Lunch",
+      "time": "1–2 PM",
+      "start": 1300
+    },
+    {
+      "key": "evening",
+      "name": "Evening",
+      "time": "4–4:30 PM",
+      "start": 1600
+    },
+    {
+      "key": "dinner",
+      "name": "Dinner",
+      "time": "7:30–8:30 PM",
+      "start": 1900
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "weekday": "Monday",
+      "kcal": 1500,
+      "meals": {
+        "early": [
+          {
+            "food": "Warm water",
+            "portion": "1 glass"
+          },
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          }
+        ],
+        "breakfast": [
+          {
+            "food": "Oats porridge",
+            "portion": "1 bowl"
+          },
+          {
+            "food": "Boiled eggs",
+            "portion": "2"
+          }
+        ],
+        "mid": [
+          {
+            "food": "Mixed nuts",
+            "portion": "10"
+          },
+          {
+            "food": "Seasonal fruit",
+            "portion": "1 cup"
+          }
+        ],
+        "lunch": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Dal",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Mixed veg sabzi",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ],
+        "evening": [
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Roasted makhana",
+            "portion": "1 cup"
+          }
+        ],
+        "dinner": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Veg curry",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ]
+      }
+    },
+    {
+      "day": 2,
+      "weekday": "Tuesday",
+      "kcal": 1500,
+      "meals": {
+        "early": [
+          {
+            "food": "Warm water",
+            "portion": "1 glass"
+          },
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          }
+        ],
+        "breakfast": [
+          {
+            "food": "Oats porridge",
+            "portion": "1 bowl"
+          },
+          {
+            "food": "Boiled eggs",
+            "portion": "2"
+          }
+        ],
+        "mid": [
+          {
+            "food": "Mixed nuts",
+            "portion": "10"
+          },
+          {
+            "food": "Seasonal fruit",
+            "portion": "1 cup"
+          }
+        ],
+        "lunch": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Dal",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Mixed veg sabzi",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ],
+        "evening": [
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Roasted makhana",
+            "portion": "1 cup"
+          }
+        ],
+        "dinner": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Veg curry",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ]
+      }
+    },
+    {
+      "day": 3,
+      "weekday": "Wednesday",
+      "kcal": 1500,
+      "meals": {
+        "early": [
+          {
+            "food": "Warm water",
+            "portion": "1 glass"
+          },
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          }
+        ],
+        "breakfast": [
+          {
+            "food": "Oats porridge",
+            "portion": "1 bowl"
+          },
+          {
+            "food": "Boiled eggs",
+            "portion": "2"
+          }
+        ],
+        "mid": [
+          {
+            "food": "Mixed nuts",
+            "portion": "10"
+          },
+          {
+            "food": "Seasonal fruit",
+            "portion": "1 cup"
+          }
+        ],
+        "lunch": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Dal",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Mixed veg sabzi",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ],
+        "evening": [
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Roasted makhana",
+            "portion": "1 cup"
+          }
+        ],
+        "dinner": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Veg curry",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ]
+      }
+    },
+    {
+      "day": 4,
+      "weekday": "Thursday",
+      "kcal": 1500,
+      "meals": {
+        "early": [
+          {
+            "food": "Warm water",
+            "portion": "1 glass"
+          },
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          }
+        ],
+        "breakfast": [
+          {
+            "food": "Oats porridge",
+            "portion": "1 bowl"
+          },
+          {
+            "food": "Boiled eggs",
+            "portion": "2"
+          }
+        ],
+        "mid": [
+          {
+            "food": "Mixed nuts",
+            "portion": "10"
+          },
+          {
+            "food": "Seasonal fruit",
+            "portion": "1 cup"
+          }
+        ],
+        "lunch": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Dal",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Mixed veg sabzi",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ],
+        "evening": [
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Roasted makhana",
+            "portion": "1 cup"
+          }
+        ],
+        "dinner": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Veg curry",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ]
+      }
+    },
+    {
+      "day": 5,
+      "weekday": "Friday",
+      "kcal": 1500,
+      "meals": {
+        "early": [
+          {
+            "food": "Warm water",
+            "portion": "1 glass"
+          },
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          }
+        ],
+        "breakfast": [
+          {
+            "food": "Oats porridge",
+            "portion": "1 bowl"
+          },
+          {
+            "food": "Boiled eggs",
+            "portion": "2"
+          }
+        ],
+        "mid": [
+          {
+            "food": "Mixed nuts",
+            "portion": "10"
+          },
+          {
+            "food": "Seasonal fruit",
+            "portion": "1 cup"
+          }
+        ],
+        "lunch": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Dal",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Mixed veg sabzi",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ],
+        "evening": [
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Roasted makhana",
+            "portion": "1 cup"
+          }
+        ],
+        "dinner": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Veg curry",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ]
+      }
+    },
+    {
+      "day": 6,
+      "weekday": "Saturday",
+      "kcal": 1500,
+      "meals": {
+        "early": [
+          {
+            "food": "Warm water",
+            "portion": "1 glass"
+          },
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          }
+        ],
+        "breakfast": [
+          {
+            "food": "Oats porridge",
+            "portion": "1 bowl"
+          },
+          {
+            "food": "Boiled eggs",
+            "portion": "2"
+          }
+        ],
+        "mid": [
+          {
+            "food": "Mixed nuts",
+            "portion": "10"
+          },
+          {
+            "food": "Seasonal fruit",
+            "portion": "1 cup"
+          }
+        ],
+        "lunch": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Dal",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Mixed veg sabzi",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ],
+        "evening": [
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Roasted makhana",
+            "portion": "1 cup"
+          }
+        ],
+        "dinner": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Veg curry",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ]
+      }
+    },
+    {
+      "day": 7,
+      "weekday": "Sunday",
+      "kcal": 1500,
+      "meals": {
+        "early": [
+          {
+            "food": "Warm water",
+            "portion": "1 glass"
+          },
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          }
+        ],
+        "breakfast": [
+          {
+            "food": "Oats porridge",
+            "portion": "1 bowl"
+          },
+          {
+            "food": "Boiled eggs",
+            "portion": "2"
+          }
+        ],
+        "mid": [
+          {
+            "food": "Mixed nuts",
+            "portion": "10"
+          },
+          {
+            "food": "Seasonal fruit",
+            "portion": "1 cup"
+          }
+        ],
+        "lunch": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Dal",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Mixed veg sabzi",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ],
+        "evening": [
+          {
+            "food": "Tea",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Roasted makhana",
+            "portion": "1 cup"
+          }
+        ],
+        "dinner": [
+          {
+            "food": "Roti",
+            "portion": "2"
+          },
+          {
+            "food": "Veg curry",
+            "portion": "1 cup"
+          },
+          {
+            "food": "Salad",
+            "portion": "1 cup"
+          }
+        ]
+      }
+    }
+  ]
+}

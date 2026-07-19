@@ -1,0 +1,8 @@
+preview/vendor/
+__pycache__/
+
+# Private meal data — never commit (use data/diet-plan.example.json as template)
+data/diet-plan.json
+data/PLAN-NOTES.private.md
+dist/data.json
+preview/index.html
